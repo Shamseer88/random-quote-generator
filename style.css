@@ -48,6 +48,14 @@ body {
   margin: 30px 30px 0 30px;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 652px) {
+  .quote-card {
+    height: 175px;
+  }
+  .author-name {
+    padding-top: 20px;
+  }
+}
 @media screen and (max-width: 452px) {
   .buttons {
     flex-direction: column;
@@ -59,7 +67,10 @@ body {
     font-size: 23px;
   }
   .quote-card {
-    height: 160px;
+    height: 175px;
+  }
+  .author-name {
+    padding-top: 20px;
   }
 }
 
@@ -98,4 +109,11 @@ body {
   background-color: #dbdcd6;
   color: #333;
   border: 1px solid #333;
+}
+
+hr {
+  background-color: #a2a595;
+  border: none;
+  padding: 1px;
+  opacity: 0.4;
 }
