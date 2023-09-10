@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Ultra&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  color: #333;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #a2a595;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 600px;
+  width: 80%;
+  background-color: #dbdcd6;
+  border-radius: 10px;
+  padding: 30px;
+}
+.main-heading {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.quote-card {
+  height: 130px;
+}
+.quote-para {
+  margin: 0 30px;
+}
+.quote-symbol {
+  font-family: "Ultra", serif;
+  font-size: 35px;
+}
+.main {
+  margin: 30px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 30px 0 30px;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 452px) {
+  .buttons {
+    flex-direction: column;
+  }
+  .twitter-button {
+    margin-bottom: 20px;
+  }
+  .main-heading {
+    font-size: 23px;
+  }
+  .quote-card {
+    height: 160px;
+  }
+}
+
+.twitter-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #333;
+  border: 1px solid #333;
+  color: #dbdcd6;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+.twitter-button i {
+  color: #dbdcd6;
+}
+.twitter-button:hover {
+  background-color: #dbdcd6;
+  color: #333;
+  border: 1px solid #333;
+}
+.twitter-button:hover i {
+  color: #333;
+}
+.new-quote-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #333;
+  border: 1px solid #333;
+  color: #dbdcd6;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+.new-quote-button:hover {
+  background-color: #dbdcd6;
+  color: #333;
+  border: 1px solid #333;
+}
